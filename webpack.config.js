@@ -6,5 +6,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: outputPath
+    },
+    devServer: {
+        contentBase:outputPath
     }
 }
